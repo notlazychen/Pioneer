@@ -12,7 +12,7 @@ namespace Pioneer.Spider
         /// 获取章节（章节的页面地址）列表
         /// </summary>
         /// <returns></returns>
-        IEnumerable<string> GetIndexes(HtmlNode html);
+        IEnumerable<SectionInfo> GetIndexes(HtmlNode html);
 
         string GetImgUrl(HtmlNode html);
 
